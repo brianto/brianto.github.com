@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<article>
+  <a href='{{ page.url }}'>
+    <header>
+      <h1>{{ page.title }}</h1>
+      <time datetime='{{ page.date }}'>{{ page.date | date: "%A, %B %d, %Y" }}</time>
+    </header>
+  </a>
+
+  {{ content }}
+</article>

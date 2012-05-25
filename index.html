@@ -1,0 +1,17 @@
+---
+layout: default
+title: Brian's Blog
+---
+
+{% for post in site.posts %}
+  <article>
+    <a href='{{ post.url }}'>
+      <header>
+        <h1>{{ post.title }}</h1>
+        <time datetime='{{ post.date }}'>{{ post.date | date: "%A, %B %d, %Y" }}</time>
+      </header>
+    </a>
+
+    {{ post.content | truncatewords: 80 }}
+  </article>
+{% endfor %}
