@@ -9,19 +9,36 @@ a {
   text-decoration: none;
 }
 
-#banner {
+body > header {
   font-family: Gruppo;
   text-align: center;
 }
 
-#banner h1 {
+body > header h1 {
   font-size: 32pt;
   letter-spacing: 24px;
 }
 
-#banner h2 {
+body > header h2 {
   font-size: 16pt;
   letter-spacing: 3px;
+}
+
+body > footer aside {
+  position: relative;
+  float: right;
+}
+
+body > footer ul {
+  list-style-type: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+body > footer ul li {
+  display: inline;
+  margin: 0 0 0 16px;
 }
 
 nav ul {
@@ -85,4 +102,39 @@ article header time {
 
 article header h2 {
   font: 10pt Abel;
+}
+
+section.tag {
+  margin: 0 0 12px 0;
+}
+
+section.tag header {
+  background: #000;
+  color: #fff;
+  padding-left: 8px;
+
+  -webkit-border-top-right-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  border-top-right-radius: 8px;
+
+  -moz-transition: background 0.5s ease-in-out;
+  -webkit-transition: background 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out;
+}
+
+section.tag header:hover {
+  background: #555;
+}
+
+section.tag header a {
+  color: #fff;
+}
+
+section.tag article {
+  background: #ccc;
+  margin-left: 32px;
+}
+
+section.tag article ul {
+  list-style-type: none;
 }

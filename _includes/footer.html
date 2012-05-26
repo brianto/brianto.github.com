@@ -1,0 +1,13 @@
+<hr />
+
+<footer>
+  {% if page.tags %}
+    Tags: <ul>
+      {% for tag in page.tags %}
+        <li><a href='/tags.html#{{ tag }}'>{{ tag }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  <aside>Copyright &copy; 2012 Brian To.</aside>
+</footer>
