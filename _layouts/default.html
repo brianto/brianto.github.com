@@ -2,14 +2,7 @@
 
 <html lang='en'>
   <head>
-    <meta charset='UTF-8' />
-    <link href='/css/simple.css' rel='stylesheet' type='text/css' />
-    <link href='http://fonts.googleapis.com/css?family=Abel|Gruppo'
-          rel='stylesheet' type='text/css'>
-
-    <meta name='description' content='{{ page.tags | join: ',' }}' />
-    <meta name='keywords' content='{{ page.description | join }}' />
-    <meta name='author' content='Brian To' />
+    {% include meta.html %}
 
     <title>{{ page.title }}</title>
   </head>
