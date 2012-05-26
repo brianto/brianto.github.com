@@ -48,12 +48,12 @@ nav ul {
   padding: 0;
 }
 
-nav ul li {
+nav li {
   display: inline;
   margin: 0 16px 0 16px;
 }
 
-nav ul li a {
+nav a {
   color: #333;
   padding: 4px 8px 4px 8px;
 
@@ -67,7 +67,7 @@ nav ul li a {
   transition: background 0.5s ease-in-out;
 }
 
-nav ul li a:hover {
+nav a:hover {
   background: #eee;
 }
 
@@ -112,6 +112,29 @@ section.tag header {
   background: #000;
   color: #fff;
   padding-left: 8px;
+  margin-bottom: 12px;
+
+  -webkit-border-top-right-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  border-top-right-radius: 8px;
+}
+
+section.tag header a {
+  color: #fff;
+  font-size: 18pt;
+}
+
+section.tag article {
+  margin-left: 32px;
+}
+
+section.tag article ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section.tag article li {
+  margin-bottom: 4px;
 
   -webkit-border-top-right-radius: 8px;
   -moz-border-radius-topright: 8px;
@@ -122,19 +145,6 @@ section.tag header {
   transition: background 0.5s ease-in-out;
 }
 
-section.tag header:hover {
-  background: #555;
-}
-
-section.tag header a {
-  color: #fff;
-}
-
-section.tag article {
-  background: #ccc;
-  margin-left: 32px;
-}
-
-section.tag article ul {
-  list-style-type: none;
+section.tag article li:hover {
+  background: #eee;
 }
