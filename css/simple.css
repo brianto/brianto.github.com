@@ -150,7 +150,7 @@ section.tag article li {
 
 section.tag article li:hover {
   background: #eee;
-  color: #999;
+  color: #eee;
 }
 
 section.tag article a {
