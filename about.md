@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Brian
+title: About Me
 ---
 
 I'm a third year [Software Enginer](http://www.se.rit.edu) at the [Rochester
