@@ -129,22 +129,38 @@ section.tag article {
 }
 
 section.tag article ul {
-  list-style-type: none;
   padding: 0;
 }
 
 section.tag article li {
+  padding: 4px 8px 4px 8px;
   margin-bottom: 4px;
+
+  list-style: disc;
+  color: #fff;
 
   -webkit-border-top-right-radius: 8px;
   -moz-border-radius-topright: 8px;
   border-top-right-radius: 8px;
 
-  -moz-transition: background 0.5s ease-in-out;
-  -webkit-transition: background 0.5s ease-in-out;
-  transition: background 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 section.tag article li:hover {
   background: #eee;
+  color: #999;
+}
+
+section.tag article a {
+  color: #333;
+
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+section.tag article a:hover {
+  color: #000;
 }
