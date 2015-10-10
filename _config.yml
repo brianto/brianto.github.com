@@ -1,8 +1,10 @@
 safe: true
-
-auto: true
-server: true
-
 markdown: kramdown
 
 permalink: /:year/:month/:title.html
+timezone: US/Pacific
+
+exclude:
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
