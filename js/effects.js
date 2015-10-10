@@ -1,12 +1,12 @@
 $(document).ready(function() {
   // Hide all post links initially
-  $('.tag article').each(function() {
+  $('.tag ul').each(function() {
     $(this).hide();
   });
 
   // When tag clicked, toggle post links
   $('.tag header').click(function(event) {
     event.preventDefault();
-    $(this).next().slideToggle();
+    $(this).siblings("ul").slideToggle();
   });
 });

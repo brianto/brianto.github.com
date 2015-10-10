@@ -122,6 +122,7 @@ section.tag header {
 }
 
 section.tag header a {
+  display: block;
   color: #fff;
   font-size: 18pt;
 }
@@ -130,11 +131,11 @@ section.tag article {
   margin-left: 32px;
 }
 
-section.tag article ul {
+section.tag ul {
   padding: 0;
 }
 
-section.tag article li {
+section.tag li {
   padding: 4px 8px 4px 8px;
   margin-bottom: 4px;
 
@@ -150,12 +151,12 @@ section.tag article li {
   transition: all 0.5s ease-in-out;
 }
 
-section.tag article li:hover {
+section.tag li:hover {
   background: #eee;
   color: #eee;
 }
 
-section.tag article a {
+section.tag a {
   color: #333;
 
   -moz-transition: all 0.5s ease-in-out;
@@ -163,6 +164,3 @@ section.tag article a {
   transition: all 0.5s ease-in-out;
 }
 
-section.tag article a:hover {
-  color: #000;
-}
